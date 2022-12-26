@@ -1,0 +1,14 @@
+= Cloud Burst Totem
+:sectnums: |,all|
+:toc: auto
+:hardbreaks-option:
+
+== General
+Displays a aura to track cooldown of cloud burst totem. While the totem is active, the aura displays the time unitl the totem expires and also the amount of healing currently stored.
+
+== Usage
+=== Installation
+To use this aura, copy the string from https://github.com/yuqo2450/wow_wa_cloudburst/blob/main/CB_Totem.txt[CB_Totem.txt] and import it in WeakAuras.
+
+== Known Issues
+* Not updated for game version 10.0.0
