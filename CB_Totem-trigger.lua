@@ -4,7 +4,7 @@ function(event,timestamp,subevent,...)
 
         if select(10,...) == 157153 then
 
-            aura_env["expirationTime"] = GetTime() + 15;
+            aura_env["expirationTime"] = GetTime() + 18;
             aura_env["healingCount"] = 0;
             aura_env["totemActive"] = true;
 
