@@ -9,5 +9,7 @@ function(event,timestamp,subevent,...)
         aura_env["healingCount"] = nil;
         aura_env["totemActive"] = false;
         return true;
+    else
+      return false;
     end
 end
