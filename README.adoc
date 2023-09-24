@@ -4,7 +4,7 @@
 :hardbreaks-option:
 
 == General
-Displays a aura to track cooldown of cloud burst totem. While the totem is active, the aura displays the time unitl the totem expires and also the amount of healing currently stored.
+Displays a aura to track cooldown of cloud burst totem. While the totem is active, the aura displays the time until the totem expires and also the amount of healing currently stored.
 
 == Usage
 === Installation
