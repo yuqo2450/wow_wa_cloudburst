@@ -20,7 +20,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 * An issue where stagger was not correctly displayed after using purifying brew
 
-## [v1.0.2] - 2022-08-15
+## [v1.0.2] - 2022-12-26
 
 ### Added
 
