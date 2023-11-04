@@ -1,4 +1,4 @@
--- [[events: CLEU:SPELL_CAST_SUCCESS:SPELL_PERIODIC_HEAL:SPELL_HEAL:UNIT_DIED:SPELL_SUMMON,PLAYER_TOTEM_UPDATE]]
+-- [[events: CLEU:SPELL_CAST_SUCCESS:SPELL_PERIODIC_HEAL:SPELL_HEAL:,PLAYER_TOTEM_UPDATE]]
 function(event,arg1,arg2,...)
   if event == "PLAYER_TOTEM_UPDATE" then
     aura_env.totemActive, aura_env.totemName = GetTotemInfo(arg1);
