@@ -3,7 +3,8 @@ function(event,arg1,arg2,...)
   if event == "PLAYER_TOTEM_UPDATE" then
     aura_env.totemActive, aura_env.totemName = GetTotemInfo(arg1);
     if aura_env.totemActive and aura_env.totemName == "Cloudburst Totem" then
-      _,_,_, aura_env.totemDuration = GetTotemInfo(arg1);
+      local _,_,_, totemDuration = GetTotemInfo(arg1);
+      aura_env.totemDuration = totemDuration;
       aura_env.expirationTime = GetTime() + aura_env.totemDuration;
       aura_env.totemIndex = arg1;
       aura_env.healingCount = 0;
