@@ -12,8 +12,8 @@ function(event,arg1,arg2,...)
     end
 
   elseif arg2 == "SPELL_HEAL" or arg2 == "SPELL_PERIODIC_HEAL" then
-    local unit = select(3,...);
-    if unit == UnitFullName("player").."-"..GetRealmName() and aura_env.totemActive then
+    local guidCaster = select(2,...);
+    if guidCaster == UnitGUID("player") and aura_env.totemActive then
       aura_env.healingCount = aura_env.healingCount + select(13,...) * 0.3;
       return true;
     end
