@@ -1,0 +1,16 @@
+= Second Power Bar
+:sectnums: |,all|
+:toc: auto
+:hardbreaks-option:
+
+== General
+General info.
+
+== Usage
+=== Install
+How to install.
+
+=== Customize
+Customization options.
+
+== Known Issues
