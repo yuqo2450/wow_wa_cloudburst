@@ -3,7 +3,7 @@ run-name: luacheck
 on:
   push:
     paths:
-      - *.lua
+      - '*.lua'
   pull_request:
     types: [opened]
 
