@@ -3,9 +3,14 @@ run-name: luacheck
 on:
   push:
     paths:
-      - '*.lua'
+      - '**.lua'
+    tags-ignore:
+      - v**
   pull_request:
-    types: [opened]
+    branches:
+      - main
+    paths:
+      - '**.lua'
 
 jobs:
   Lualint:
