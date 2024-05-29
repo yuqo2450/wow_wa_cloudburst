@@ -13,10 +13,10 @@ function(event,arg1,arg2,...)
   end
 
   if arg2 == "SPELL_CAST_SUCCESS" then
-    local unit = select(3,...);
+    local guidCaster = select(2,...);
     local spell = select(10,...);
 
-    if unit == GetUnitName("player").."-"..GetRealmName() and spell == 201764 then
+    if guidCaster == UnitGUID("player") and spell == 201764 then
       aura_env.totemActive = nil;
       aura_env.totemName = nil;
       aura_env.totemDuration = nil;
