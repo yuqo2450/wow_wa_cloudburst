@@ -1,4 +1,4 @@
 function(...)
-  local icon = GetSpellTexture(157504)
+  local icon = C_Spell.GetSpellTexture(157504)
   return icon;
 end
