@@ -5,7 +5,7 @@ function(event,arg1,arg2,...)
     if not aura_env.totemActive or aura_env.totemName ~= "Cloudburst Totem" then
       return false
     end
-    _,_,_, aura_env.totemDuration = GetTotemInfo(arg1);
+    aura_env.totemDuration = select(4,GetTotemInfo(arg1));
     aura_env.expirationTime = GetTime() + aura_env.totemDuration;
     aura_env.totemIndex = arg1;
     aura_env.healingCount = 0;

@@ -1,4 +1,4 @@
 function (...)
-  local name = GetSpellInfo(157504)
+  local name = C_Spell.GetSpellInfo(157504)
   return name
 end
